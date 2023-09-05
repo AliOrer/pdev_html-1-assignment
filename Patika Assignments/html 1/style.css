@@ -1,0 +1,113 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.a1{
+    color: white;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+p{
+    text-align: center;
+ }
+
+ #but2{
+    background-color: rgba(0, 0, 0, 0); 
+    border: 0;
+    color: rgba(45, 182, 18, 0.97);
+    font-size: 28px;
+ }
+ #but2:hover{
+    color: red;
+ }
+
+.p1{
+    font-size: 30px;
+    margin-top: 10%;
+    color: rgba(0, 255, 255, 0.709);
+}
+
+.h1 , h2{
+    text-align: center;
+     color: red;
+     font-size: 38px;
+     opacity: 0.8;
+     font-style: italic;
+}
+.h2{
+    color: rgb(125, 226, 43);
+}
+.L1>li>.a1{
+    margin: 10px;
+    color: white;
+    /* color: rgb(200, 202, 54);         vermek istediğim rengi engellediği için iptal edip, yukarıda .a1 class için yeni bir satır açtım.                  */
+}
+.L1>li>.a1:hover{
+    background-color: rgba(150, 214, 165, 0.229);
+    border-radius: 17px;
+    text-shadow: rgba(3, 69, 140, 0.53) 1px 0 10px;
+}
+ul{
+    text-align: right;
+
+}
+.L1>li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.L1>li>.a1:visited{
+    color: blueviolet;
+}
+.L1>li>.a1:active{
+    color: red;
+}
+
+.p1:hover{
+    background-color: black;
+    color: white;
+}
+
+#sp1{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(255, 213, 0);
+}
+
+#sp1:hover{
+    color: rgb(142, 42, 35);
+    background-color: rgba(239, 236, 135, 0.569);
+    border-radius: 9px;
+}
+.fa-brands{
+    font-size: 60px;
+    color: rgb(190, 87, 227);
+    padding: 6px;
+}
+
+.fa-brands:hover{
+    color: red;
+  
+}
+
+.p5 {
+    color :  rgb(134, 179, 124);
+    font-size: 26px;
+    
+}
+
+.p5:hover{
+    background-color: rgb(153, 159, 158);    
+    color: black;
+}
